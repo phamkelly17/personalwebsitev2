@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'COINY';
+  src: local('COINY'), 
+    url('fonts/Coiny/Coiny-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CODA';
+  src: local('CODA'), 
+    url('fonts/Coda/Coda-Regular.ttf') format('truetype');
+}
