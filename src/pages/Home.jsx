@@ -66,6 +66,17 @@ const EXPERIENCES = [
 
 const PROJECTS = [
   {
+    image: arrivecan,
+    name: "ArriveCAN",
+    jobTitle: null,
+    date: "October 2022",
+    bulletpoints: [
+      "Participated in a company-wide hackathon to recreate the ArriveCAN app in a weekend and developed the front-end in React Native",
+    ],
+    link: "https://www.theglobeandmail.com/politics/article-two-canadian-tech-companies-say-each-recreated-arrivecan-app-to-show/",
+    github: null,
+  },
+  {
     image: sydeproject,
     name: "SydeProject",
     jobTitle: null,
@@ -78,26 +89,17 @@ const PROJECTS = [
     github: "https://github.com/phamkelly17/syde-project",
   },
   {
-    image: website,
-    name: "Kelly's Shop",
+    image: curaearth,
+    name: "CuraEarth",
     jobTitle: null,
-    date: "April 2021 - June 2021",
+    date: "January 2022",
     bulletpoints: [
-      "Programmed a dynamic food ordering website using a Django framework for CS50x Web Programming course offered by Harvard University using Python, SQLite, JavaScript, HTML, and CSS",
+      "Submission for SheHacks 2022 Hackathon, all work was done within 36 hours",
+      "Developed the front-end of the website using React.js. Created the navbar, homepage, and contact section using HTML and CSS",
+      "Added functionality of the buttons on the homepage using JavaScript",
     ],
-    link: "https://www.youtube.com/watch?v=Wpw-XTLp3A4",
-    github: "https://github.com/phamkelly17/final_project",
-  },
-  {
-    image: arrivecan,
-    name: "ArriveCAN",
-    jobTitle: null,
-    date: "October 2022",
-    bulletpoints: [
-      "Participated in a company-wide hackathon to recreate the ArriveCAN app in a weekend and developed the front-end in React Native",
-    ],
-    link: "https://www.theglobeandmail.com/politics/article-two-canadian-tech-companies-say-each-recreated-arrivecan-app-to-show/",
-    github: null,
+    link: "https://devpost.com/software/cura-planet",
+    github: "https://github.com/phamkelly17/cura-earth",
   },
   {
     image: fish,
@@ -113,17 +115,15 @@ const PROJECTS = [
     github: "https://github.com/phamkelly17/flappy-fish",
   },
   {
-    image: curaearth,
-    name: "CuraEarth",
+    image: website,
+    name: "Kelly's Shop",
     jobTitle: null,
-    date: "January 2022",
+    date: "April 2021 - June 2021",
     bulletpoints: [
-      "Submission for SheHacks 2022 Hackathon, all work was done within 36 hours",
-      "Developed the front-end of the website using React.js. Created the navbar, homepage, and contact section using HTML and CSS",
-      "Added functionality of the buttons on the homepage using JavaScript",
+      "Programmed a dynamic food ordering website using a Django framework for CS50x Web Programming course offered by Harvard University using Python, SQLite, JavaScript, HTML, and CSS",
     ],
-    link: "https://devpost.com/software/cura-planet",
-    github: "https://github.com/phamkelly17/cura-earth",
+    link: "https://www.youtube.com/watch?v=Wpw-XTLp3A4",
+    github: "https://github.com/phamkelly17/final_project",
   },
 ];
 const Home = () => {
