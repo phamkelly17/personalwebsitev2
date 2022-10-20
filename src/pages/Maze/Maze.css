@@ -1,0 +1,113 @@
+#firstPageContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1001px;
+}
+#gameContainer{
+    position: relative;
+    border-color: black;
+    border-width: 10px;
+    height: 850px;
+    width: 1450px;
+}
+#bulbasaur {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#kellyphamContainer {
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    left:450px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#kellypham{
+    /* background-color: green; */
+    font-family: 'COINY';
+    font-size: 72px;
+}
+#instructions{
+    font-family: 'CODA';
+    font-size: 24px;
+}
+.wall{
+    background-color: #AEC7CB;
+    position: absolute;
+}
+.single{
+    width: 50px;
+    height: 50px;
+}
+.horiz2{
+    width: 100px;
+    height: 50px;
+}
+.horiz3{
+    width: 150px;
+    height: 50px
+}
+.horiz4{
+    width: 200px;
+    height: 50px
+}
+.horiz5{
+    width: 250px;
+    height: 50px
+}
+.horiz6{
+    width: 300px;
+    height: 50px
+}
+.horiz9{
+    width: 450px;
+    height: 50px
+}
+.horiz10{
+    width: 500px;
+    height: 50px
+}
+.horiz15{
+    width: 750px;
+    height: 50px
+}
+.vert2{
+    width: 50px;
+    height: 100px
+}
+.vert3{
+    width: 50px;
+    height: 150px
+}
+.vert4{
+    width: 50px;
+    height: 200px
+}
+.vert5{
+    width: 50px;
+    height: 250px
+}
+.vert6{
+    width: 50px;
+    height: 300px;
+}
+.vert7{
+    width: 50px;
+    height: 350px;
+}
+.vert8{
+    width: 50px;
+    height: 400px;
+}
+.vert10{
+    width: 50px;
+    height: 500px
+}

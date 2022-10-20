@@ -15,6 +15,7 @@ import curaearth from "../images/projects/curaearth.png";
 import About from "./About/About";
 import HorizontalScroll from "./HorizontalScroll/HorizontalScroll";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Maze from "./Maze/Maze";
 
 const EXPERIENCES = [
   {
@@ -146,9 +147,8 @@ const Home = () => {
   }
 
   useEffect(() => {
-    console.log(window.innerWidth.toString().concat("px"));
     document.getElementById("firstPage").style.height = window.innerHeight
-      .toString()
+      .toString() 
       .concat("px");
     document.getElementById("secondPage").style.minHeight = window.innerHeight
       .toString()
@@ -165,7 +165,7 @@ const Home = () => {
   return (
     <div id="homeContainer">
       <div id="firstPage">
-        <p>hello this is the first page</p>
+        <Maze />
       </div>
       <div id="secondPage">
         <div id="menuContainer">
