@@ -16,6 +16,8 @@ import About from "./About/About";
 import HorizontalScroll from "./HorizontalScroll/HorizontalScroll";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Maze from "./Maze/Maze";
+import flower from "../images/Maze/flower.png";
+
 
 const EXPERIENCES = [
   {
@@ -294,7 +296,11 @@ const Home = () => {
           </div>
         </div>
         <div id="bottomBar">
-          <p>Designed by Kelly Pham 2022 :)</p>
+        <img className="bottomBarFlower" src={flower} alt="flower" />
+
+          <p>Designed by Kelly Pham 2022</p>
+          <img className="bottomBarFlower" src={flower} alt="flower" />
+
         </div>
       </div>
     </div>

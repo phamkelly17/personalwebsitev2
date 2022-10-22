@@ -3,5 +3,6 @@
     font-family: 'CODA';
     font-size: 25px;
     text-align: center;
-    height: 250px
+    height: 275px;
+    overflow: scroll
 }
