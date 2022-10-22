@@ -12,6 +12,8 @@
     height: 820px;
     width: 1450px;
     overflow: scroll;
+    border-style: solid;
+    border-width: 2px;
 }
 #bulbasaur {
     height: 50px;

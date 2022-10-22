@@ -534,6 +534,7 @@ const Maze = () => {
     setShowFlowerCard(false);
   };
   document.onkeydown = function (e) {
+    e.preventDefault();
     if (!showFlowerCard) {
       switch (e.keyCode) {
         case 37:
@@ -563,7 +564,6 @@ const Maze = () => {
           }
           break;
         case 39:
-          e.preventDefault();
           if (position[0] === 28) break;
           if (!doesIntersect(position[0] + 1, rowsToRowArray[position[1]])) {
             setPosition([position[0] + 1, position[1]]);
@@ -576,7 +576,6 @@ const Maze = () => {
           }
           break;
         case 40:
-          e.preventDefault();
           if (!doesIntersect(position[0], rowsToRowArray[position[1] + 1])) {
             setPosition([position[0], position[1] + 1]);
             document.getElementById("bulbasaur").style.top = (

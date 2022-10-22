@@ -18,7 +18,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Maze from "./Maze/Maze";
 import flower from "../images/Maze/flower.png";
 
-
 const EXPERIENCES = [
   {
     image: mystery,
@@ -150,7 +149,7 @@ const Home = () => {
 
   useEffect(() => {
     document.getElementById("firstPage").style.height = window.innerHeight
-      .toString() 
+      .toString()
       .concat("px");
     document.getElementById("secondPage").style.minHeight = window.innerHeight
       .toString()
@@ -275,7 +274,12 @@ const Home = () => {
             )}
           </div>
           <div className="optionContainer">
-            <h1 className="menuTab">RESUME</h1>
+            <a className="resumeLink"
+              href="https://drive.google.com/file/d/1N1d94Ak_hxqGsg7OZdl9uF3VeAWuxZEr/view?usp=sharing"
+              target="_blank"
+            >
+              <h1 className="menuTab">RESUME</h1>
+            </a>
           </div>
           <div id="nav-icons">
             <div className="imgContainer">
@@ -296,11 +300,10 @@ const Home = () => {
           </div>
         </div>
         <div id="bottomBar">
-        <img className="bottomBarFlower" src={flower} alt="flower" />
+          <img className="bottomBarFlower" src={flower} alt="flower" />
 
           <p>Designed by Kelly Pham 2022</p>
           <img className="bottomBarFlower" src={flower} alt="flower" />
-
         </div>
       </div>
     </div>
