@@ -23,7 +23,7 @@ const EXPERIENCES = [
     image: mystery,
     name: "Could be you! ",
     jobTitle: "Seeking Summer 2023 Co-op Opportunities",
-    date: "May 2023 - Aug 2022",
+    date: "May 2023 - Aug 2023",
     bulletpoints: [],
     link: null,
     github: null,
