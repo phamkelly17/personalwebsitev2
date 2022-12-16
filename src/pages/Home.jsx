@@ -6,7 +6,7 @@ import linkedin from "../images/linkedin.png";
 import tribalscale from "../images/experiences/tribalscale.png";
 import irdeto from "../images/experiences/irdeto.png";
 import uwpm from "../images/experiences/uwpm.jpeg";
-import mystery from "../images/experiences/mystery.png";
+import uw_blueprint from "../images/experiences/uw_blueprint.png";
 import sydeproject from "../images/projects/sydeproject.png";
 import website from "../images/projects/website.png";
 import arrivecan from "../images/projects/arrivecan.png";
@@ -18,21 +18,24 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Maze from "./Maze/Maze";
 import flower from "../images/Maze/flower.png";
 
+const RESUME_LINK =
+  "https://drive.google.com/file/d/16NRLTqqUijPB7EGke8RNt_wIofwmQmIJ/view?usp=sharing";
+
 const EXPERIENCES = [
   {
-    image: mystery,
-    name: "Could be you! ",
-    jobTitle: "Seeking Summer 2023 Co-op Opportunities",
-    date: "May 2023 - Aug 2023",
-    bulletpoints: [],
-    link: null,
+    image: uw_blueprint,
+    name: "UW Blueprint",
+    jobTitle: "Projects Developer",
+    date: "Dec 2022 - present",
+    bulletpoints: ["Building tech for social good :)"],
+    link: "https://uwblueprint.org/",
     github: null,
   },
   {
     image: uwpm,
     name: "UW Product Management Club",
     jobTitle: "Full-Stack Developer",
-    date: "Oct 2022 - Present",
+    date: "Oct 2022 - Dec 2022",
     bulletpoints: [
       "Collaborate with a team of designers to implement website redesigns and update website to reflect on upcoming club events in React.js",
     ],
@@ -45,9 +48,9 @@ const EXPERIENCES = [
     jobTitle: "Agile Software Engineering",
     date: "Sept 2022 - December 2022",
     bulletpoints: [
-      "Developed an app using Microsoft Powerapps in order to digitize McCain processes. Worked on the full-stack and connected front-end to Koa backend using API calls",
-      "Implemented 5 features in the company’s internal rewards app including notifications and widgets in React Native",
-      "Maintained and implemented new features to the internal avatar creation website to give clients a personalized and intimate experience with the company in React.js",
+      "Collaborated on a team of 3 developers to create a website from scratch  using TypeScript and Next.js to allow users to signup and accept challenges for various health programs",
+      "Leveraged GraphQL to query and mutate data and Jest  to test components",
+      "Implemented over 15 components and 7 pages and engaged with the client to discuss optimal user experience"
     ],
     link: null,
     github: null,
@@ -274,10 +277,7 @@ const Home = () => {
             )}
           </div>
           <div className="optionContainer">
-            <a className="resumeLink"
-              href="https://drive.google.com/file/d/1N1d94Ak_hxqGsg7OZdl9uF3VeAWuxZEr/view?usp=sharing"
-              target="_blank"
-            >
+            <a className="resumeLink" href={RESUME_LINK} target="_blank">
               <h1 className="menuTab">RESUME</h1>
             </a>
           </div>
